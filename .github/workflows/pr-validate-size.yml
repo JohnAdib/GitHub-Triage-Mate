@@ -2,11 +2,11 @@ name: ⚖️ Validate PR
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened, ready_for_review, review_requested]
+    types: [ready_for_review, review_requested]
 
 env:
-  MAX_FILES_COUNT: 20
-  MAX_LINES_COUNT: 500
+  MAX_FILES_COUNT: 10
+  MAX_LINES_COUNT: 1000
 
 jobs:
   count_changes:
@@ -50,7 +50,9 @@ jobs:
             echo "Files changed: $FILES_CHANGED (max allowed: $MAX_FILES_COUNT)"
             echo "Lines changed: $(($LINES_ADDED + $LINES_DELETED)) (max allowed: $MAX_LINES_COUNT)"
             echo "Please split the pull request into smaller ones, to make the review process easier."
-            exit 1
+
+            # TODO: add a message instead of exit and fail the pipeline
+            # exit 1
           else
             echo "✅ The pull request size is within allowed limits."
           fi
