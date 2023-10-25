@@ -34,8 +34,9 @@
 '📄ReactTypeScript':
   - "**/*.tsx"
 
-'📄CSS':
+"🎨CSS":
   - "**/*.css"
+  - "**/*.scss"
 
 '📄YAML':
   - "**/*.yml"
@@ -98,6 +99,10 @@
 
 '🌲Cypress':
   - "*/cypress/**"
+
+'📔Storybook':
+  - "**/.storybook/**"
+  - "**/*.stories.js"
 
 '🧪Test':
 - "**/*.spec.js"
