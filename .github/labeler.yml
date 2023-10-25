@@ -80,12 +80,11 @@
 '📎VSCode':
   - ".vscode/**"
 
-Package.json:
+'🤹‍♂️Package.json':
   - "**/package.json"
   - "**/package-lock.json"
 
-TypeScript:
-  - "tsconfig.json"
+'🥽TypeScript':
   - "**/tsconfig.json"
 
 '🕵️‍♂️ESLint':
