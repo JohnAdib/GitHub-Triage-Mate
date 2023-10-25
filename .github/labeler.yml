@@ -1,11 +1,11 @@
 # https://github.com/actions/labeler
 
 '🥁GithubActions':
-  - .github/**
+  - ".github/**"
 
 '📖Docs':
-  - docs/**
-  - *.md
+  - "docs/**"
+  - "*.md"
 
 '🍭ENV':
   - "**/.env*"
@@ -91,10 +91,10 @@ TypeScript:
 # based on the folder or file extension
 
 '🎭Playwright':
-  - */playwright/**
+  - "*/playwright/**"
 
 '🌲Cypress':
-  - */cypress/**
+  - "*/cypress/**"
 
 '🧪Test':
 - "**/*.spec.js"
