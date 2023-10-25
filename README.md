@@ -1,4 +1,4 @@
-# TriageMate
+# Github Triage Mate
 
 This repository contains GitHub Actions workflows to automate the triaging process for pull requests, add relevant tags based on file changes, and assign the pull request to the person who created it. Additionally, it provides examples of pull requests, templates for issues, and a cleanup process to remove the GitHub Actions cache after the repository is closed.
 
