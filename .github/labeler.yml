@@ -73,8 +73,9 @@
   - "**/*.ogg"
 
 # based on the file type add some tags
-DockerCompose:
-  - "docker-compose.yml"
+'🐬Docker':
+  - "**/docker-compose*"
+  - "**/Dockerfile*"
 
 Package.json:
   - "**/package.json"
