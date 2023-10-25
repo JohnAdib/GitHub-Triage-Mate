@@ -16,8 +16,8 @@ A clear and concise description of what the bug is.
 Specify the action version
 
 **Platform:**
-- [ ] Ubuntu
 - [ ] macOS
+- [ ] Ubuntu
 - [ ] Windows
 
 **Runner type:**
