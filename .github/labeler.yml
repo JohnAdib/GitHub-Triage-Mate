@@ -10,7 +10,7 @@
 '🍭ENV':
   - "**/.env*"
 
-'🤹Git':
+'⚕️Git':
   - "**/.gitignore"
   - "**/.gitmodules"
 
