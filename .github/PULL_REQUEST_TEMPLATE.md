@@ -1,4 +1,4 @@
-<!-- Create a github wiki page and link here if you have some guideline about branch name -->
+<!-- Create a GitHub wiki page and link here if you have some guidelines about branch name -->
 # Jira [LPPT-0000](https://[Project].atlassian.net/browse/LPPT-0000)
 
 <!-- Please add some description and list the changes -->
