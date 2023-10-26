@@ -1,4 +1,4 @@
-name: "🤖 Triage"
+name: "🍻 TriageMate"
 on:
   pull_request:
     branches:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   triage:
-    name: "🏗️ Auto"
+    name: "🤖 Auto"
     runs-on: ubuntu-latest
     timeout-minutes: 1
     permissions:
